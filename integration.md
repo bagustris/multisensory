@@ -33,9 +33,11 @@ math: katex
 
 <!-- _class: title -->
 
-# Multisensory Communicative AI
+# Human-AI Interaction: 
+## Human Multisensory Perception
 
-Bagus Tris
+<br /><br /><br />
+Bagus Tris Atmaja 
 Assistant Professor – Human-AI Interaction
 
 ---
@@ -44,28 +46,26 @@ Assistant Professor – Human-AI Interaction
 
 - Humans use multiple modalities to communicate (e.g., speech, facial expressions, gestures).
 - We sense the world through multiple channels — not just five.
-- **Multisensory integration**: how humans and machines combine these channels.
+- This sub-course consists of two parts:
+  - **Multisensory perecption**: how humans sense and interpret the world through our senses combine these channels.
+  - **Multimodal processing**: how to design AI systems that can process and integrate information from multiple modalities.
 
 ---
 
-## Chapter 5 Overview: Sensation, Perception & the Senses
+## Overview: Sensation, Perception & the Senses
 
-| Section | Topic |
-|---------|-------|
-| 5.1 | Sensation vs. Perception |
-| 5.2 | Waves and Wavelengths |
-| 5.3 | Vision |
-| 5.4 | Hearing |
-| 5.5 | The Other Senses |
-| 5.6 | Gestalt Principles of Perception |
-
----
-
-# 5.1 Sensation vs. Perception
+| Topic |
+|-------|
+| Sensation vs. Perception |
+| Waves and Wavelengths |
+| Vision |
+| Hearing |
+| The Other Senses |
+| Gestalt Principles of Perception |
 
 ---
 
-## Key Definitions
+# Sensation vs. Perception
 
 **Sensation** — occurs when sensory receptors detect stimuli and convert them into neural signals sent to the brain.
 
@@ -80,6 +80,11 @@ Assistant Professor – Human-AI Interaction
 ---
 
 ## Our Sensory Modalities
+<style scoped>
+{
+  font-size: 26px;
+}
+</style>
 
 More than five senses exist:
 
@@ -113,7 +118,7 @@ Examples:
 
 **Just noticeable difference (JND)** — the smallest detectable difference between two stimuli.
 
-> **Weber's Law**: The difference threshold is a *constant fraction* of the original stimulus.
+**Weber's Law**: The difference threshold is a *constant fraction* of the original stimulus.
 
 Example: A phone screen lighting up is obvious in a dark movie theater, but unnoticed in a brightly lit arena — same brightness, different context.
 
@@ -121,9 +126,9 @@ Example: A phone screen lighting up is obvious in a dark movie theater, but unno
 
 ## Bottom-Up vs. Top-Down Processing
 
-![w:650](assets/figure_5.2_topdown_bottomup.jpg)
+![w:880](assets/figure_5.2_topdown_bottomup.jpg)
 
-**Figure 5.2** Top-down processing uses prior knowledge; bottom-up processing is driven by sensory input.
+Top-down processing uses prior knowledge; bottom-up processing is driven by sensory input.
 
 ---
 
@@ -135,7 +140,7 @@ Example: A phone screen lighting up is obvious in a dark movie theater, but unno
 **Top-down**: goal-directed, deliberate, voluntary
 - e.g., scanning for a yellow key fob in likely locations, ignoring the ceiling fan
 
-> Sensation is **physical**; Perception is **psychological**.
+Sensation is **physical**; Perception is **psychological**.
 
 ---
 
@@ -161,7 +166,7 @@ Simons & Chabris (1999): While counting basketball passes, nearly **half** of pa
 
 ![w:620](assets/figure_5.3_inattentional_blindness.jpg)
 
-**Figure 5.3** ~⅓ of participants missed a red cross on screen because attention was focused on black/white figures. *(credit: Cory Zanker)*
+About ⅓ of participants missed a red cross on screen because attention was focused on black/white figures. (credit: Cory Zanker)
 
 ---
 
@@ -177,17 +182,13 @@ Simons & Chabris (1999): While counting basketball passes, nearly **half** of pa
 
 ![w:700](assets/figure_5.4_muller_lyer.jpg)
 
-**Figure 5.4** Lines appear to be different lengths although they are identical — a classic example of how top-down expectations shape perception.
+Lines appear to be different lengths although they are identical — a classic example of how top-down expectations shape perception.
 
 ---
 
-# 5.2 Waves and Wavelengths
+# Waves and Wavelengths
 
----
-
-## Wave Properties
-
-Two key physical characteristics of a wave:
+The key physical characteristics of a wave:
 
 - **Amplitude** — distance from center line to crest (peak) or trough; associated with **intensity**
 - **Wavelength** — length from one peak to the next; inversely related to frequency
@@ -215,19 +216,17 @@ Higher frequency = shorter wavelength; lower frequency = longer wavelength.
 
 ## Light Waves: The Electromagnetic Spectrum
 
-![w:700](assets/figure_5.7_spectrum.jpg)
+![w:800](assets/figure_5.7_spectrum.jpg)
 
-**Figure 5.7** Visible light is only a small portion of the full electromagnetic spectrum (380–740 nm).
-
-Other species detect beyond human range: honeybees (UV), some snakes (infrared).
+Visible light is only a small portion of the full electromagnetic spectrum (380–740 nm). Other species detect beyond human range: honeybees (UV), some snakes (infrared).
 
 ---
 
 ## Color and Wavelength
 
-![w:680](assets/figure_5.8_vis_spectrum.jpg)
+![w:920](assets/figure_5.8_vis_spectrum.jpg)
 
-**Figure 5.8** Different wavelengths correspond to different colors. Mnemonic: **ROYGBIV**.
+Different wavelengths correspond to different colors. Mnemonic: **ROYGBIV**.
 - Reds → longer wavelengths
 - Violets/Blues → shorter wavelengths
 - Amplitude → brightness/intensity
@@ -247,39 +246,44 @@ Other species detect beyond human range: honeybees (UV), some snakes (infrared).
 
 ## Loudness of Common Sounds
 
-![w:650](assets/figure_5.9_aud_range.jpg)
+![bg left](assets/figure_5.9_aud_range.jpg)
 
-**Figure 5.9** Loudness levels of common sounds. ~⅓ of all hearing loss is due to noise exposure.
 
----
 
-# 5.3 Vision
+Loudness levels of common sounds: ~⅓ of all hearing loss is due to noise exposure.
 
 ---
 
-## Anatomy of the Visual System
 
-![w:550](assets/figure_5.10_eyes.jpg)
+## Vision: The Eye
 
-**Figure 5.10** Our eyes gather sensory information for interpreting the world.
+![bg right w:600](assets/figure_5.11_eye_anatomy.jpg)
 
----
+Our eyes gather sensory information for interpreting the world.
 
-## The Eye
 
-![w:600](assets/figure_5.11_eye_anatomy.jpg)
-
-**Figure 5.11** Anatomy of the eye.
-
-**Key structures:** cornea → pupil → lens → retina → fovea → optic nerve
+**Key structures:**  
+cornea → pupil → lens → retina → fovea → optic nerve
 
 ---
 
 ## Photoreceptors: Rods and Cones
 
-![w:550](assets/figure_5.12_rods_cones.jpg)
+Cones (green) are concentrated in the fovea; rods (blue) cover the rest of the retina.
 
-**Figure 5.12** Cones (green) are concentrated in the fovea; rods (blue) cover the rest of the retina.
+
+<style scoped>
+    section {
+        display: block;
+    }
+    table {
+        width: max-content;
+        float: right;
+        font-size: 24px;
+    }
+</style>
+
+
 
 | | Rods | Cones |
 |--|------|-------|
@@ -287,13 +291,14 @@ Other species detect beyond human range: honeybees (UV), some snakes (infrared).
 | Light condition | Dim | Bright |
 | Function | Motion, low-light | Color, detail |
 
+
+![w:550](assets/figure_5.12_rods_cones.jpg)
+
 ---
 
-## Visual Pathways in the Brain
+![bg left w:650](assets/figure_5.13_optic_chiasm.jpg)
 
-![w:600](assets/figure_5.13_optic_chiasm.jpg)
-
-**Figure 5.13** At the optic chiasm, right-visual-field info goes to left hemisphere and vice versa. Processed in occipital lobe.
+At the optic chiasm, right-visual-field info goes to left hemisphere and vice versa. Processed in occipital lobe.
 
 - **"What" pathway** — object recognition
 - **"Where/How" pathway** — location and spatial interaction
@@ -312,9 +317,9 @@ Both theories apply — trichromatic at the retina level; opponent-process furth
 
 ## Trichromatic Theory
 
-![w:620](assets/figure_5.14_trichromatic.jpg)
+![bg right w:700](assets/figure_5.14_trichromatic.jpg)
 
-**Figure 5.14** Sensitivity curves for the three cone types. Red-green color blindness affects ~8% of European males.
+Sensitivity curves for the three cone types. Red-green color blindness affects ~8% of European males.
 
 ---
 
@@ -322,7 +327,7 @@ Both theories apply — trichromatic at the retina level; opponent-process furth
 
 ![w:500](assets/figure_5.16_afterimage.jpg)
 
-**Figure 5.16** Stare at the white dot for 30–60 seconds, then look at a white surface. The afterimage demonstrates opponent-process theory.
+Stare at the white dot for 30–60 seconds, then look at a white surface. The afterimage demonstrates opponent-process theory.
 
 ---
 
@@ -342,19 +347,14 @@ Both theories apply — trichromatic at the retina level; opponent-process furth
 
 ![w:650](assets/figure_5.17_linear_perspec.jpg)
 
-**Figure 5.17** We perceive depth in a 2-D image through monocular cues like converging parallel lines. *(credit: Marc Dalmulder)*
+We perceive depth in a 2-D image through monocular cues like converging parallel lines. *(credit: Marc Dalmulder)*
 
 ---
 
-# 5.4 Hearing
+# Hearing
+![w:760](assets/figure_5.18_ear_anatomy.jpg)
 
----
-
-## Anatomy of the Auditory System
-
-![w:650](assets/figure_5.18_ear_anatomy.jpg)
-
-**Figure 5.18** The ear: outer (pinna, tympanic membrane), middle (ossicles: malleus, incus, stapes), inner (cochlea, basilar membrane).
+The ear: outer (pinna, tympanic membrane), middle (ossicles: malleus, incus, stapes), inner (cochlea, basilar membrane).
 
 ---
 
@@ -380,9 +380,10 @@ Both apply: up to ~4,000 Hz, both rate and place contribute. Higher frequencies 
 
 ## Sound Localization
 
-![w:600](assets/figure_5.19_sound_local.jpg)
+<!-- ![bg left w:500](assets/figure_5.19_sound_local.jpg) -->
+<img src="assets/figure_5.19_sound_local.jpg" alt="Marp" width="500" align="right " />
 
-**Figure 5.19** Sound localization uses both monaural and binaural cues.
+Sound localization uses both monaural and binaural cues.
 
 - **Monaural cues**: pinna shape → above/below and front/behind
 - **Interaural level difference**: louder in nearer ear
@@ -402,18 +403,7 @@ Causes: aging, noise exposure, trauma, infections, medications.
 
 ---
 
-## Noise-Induced Hearing Loss
-
-![w:650](assets/figure_5.20_hearing_loss.jpg)
-
-**Figure 5.20** Environments with sustained loud noise (music, construction) are major risk factors for sensorineural hearing loss.
-
----
-
-# 5.5 The Other Senses
-
----
-
+# The Other Senses
 ## Chemical Senses: Taste (Gustation)
 
 At least **6 taste qualities**: sweet, salty, sour, bitter, **umami**, and fatty.
@@ -426,9 +416,10 @@ At least **6 taste qualities**: sweet, salty, sour, bitter, **umami**, and fatty
 
 ## Taste Bud Anatomy
 
-![w:600](assets/figure_5.21_taste_bud.jpg)
+![w:740](assets/figure_5.21_taste_bud.jpg)
 
-**Figure 5.21** (a) Taste receptor cells in a taste bud. (b) Microscopic view of tongue surface.
+(a) Taste receptor cells in a taste bud. 
+(b) Microscopic view of tongue surface.
 
 ---
 
@@ -441,16 +432,23 @@ At least **6 taste qualities**: sweet, salty, sour, bitter, **umami**, and fatty
 - Taste and smell work **together** to produce flavor perception.
 
 ---
+<br/> 
 
-## Olfactory Receptors
+### Olfactory Receptors
 
-![w:600](assets/figure_5.22_olfac_recep.jpg)
+![bg left w:730](assets/figure_5.22_olfac_recep.jpg)
 
-**Figure 5.22** Hair-like olfactory receptor extensions protrude into the nasal mucous membrane to bind odor molecules.
+<br/>
+Hair-like olfactory receptor extensions protrude into the nasal mucous membrane to bind odor molecules.
 
 ---
 
 ## Touch: Somatosensation
+<style scoped>
+{
+  font-size: 34px;
+}
+</style>
 
 Four main types of skin receptors:
 
@@ -467,9 +465,11 @@ Free nerve endings also detect **temperature (thermoception)** and **pain (nocic
 
 ## Skin Receptors
 
-![w:580](assets/figure_5.23_touch.jpg)
+<!-- ![w:600 right](assets/figure_5.23_touch.jpg) -->
 
-**Figure 5.23** Multiple receptor types in the skin respond to different touch stimuli. Signals travel via spinal cord to **somatosensory cortex** (postcentral gyrus).
+<img src="assets/figure_5.23_touch.jpg" alt="Marp" width="800"  align="right" />
+
+Multiple receptor types in the skin respond to different touch stimuli. Signals travel via spinal cord to **somatosensory cortex** (postcentral gyrus).
 
 ---
 
@@ -484,11 +484,11 @@ Pain is adaptive — signals injury and motivates avoidance.
 
 ---
 
-## Vestibular, Proprioceptive & Kinesthetic Senses
+## Vestibular, Proprioceptive & Kinesthetic
 
-![w:500](assets/figure_5.24_vestibular.jpg)
-
-**Figure 5.24** Vestibular organs (utricle, saccule, semicircular canals) next to the cochlea in the inner ear.
+<!-- ![w:500](assets/figure_5.24_vestibular.jpg) -->
+<img src="assets/figure_5.24_vestibular.jpg" alt="Marp" width="500" align="right" />
+Vestibular organs (utricle, saccule, semicircular canals) next to the cochlea in the inner ear.
 
 - **Vestibular sense** — balance and head/body orientation
 - **Proprioception** — perception of body position
@@ -496,15 +496,13 @@ Pain is adaptive — signals injury and motivates avoidance.
 
 ---
 
-# 5.6 Gestalt Principles of Perception
-
----
+# Gestalt Principles of Perception
 
 ## Gestalt Psychology
 
 Founded by **Max Wertheimer** (early 20th c.), with Köhler and Koffka.
 
-> "The whole is different from the sum of its parts."
+"The whole is different from the sum of its parts."
 
 The brain organizes sensory input into meaningful perceptions in **predictable ways** — these are the Gestalt principles.
 
@@ -514,37 +512,37 @@ Key idea: perception is an active construction, not a passive recording.
 
 ## Figure-Ground Relationship
 
-![w:500](assets/figure_5.25_faces_vase.jpg)
+![bg left w:600](assets/figure_5.25_faces_vase.jpg)
+<!-- <img src="assets/figure_5.25_faces_vase.jpg" alt="Marp" width="500" align="left" /> -->
 
-**Figure 5.25** The Rubin vase: perception alternates between a vase (white figure) and two faces (black figure), depending on what is perceived as figure vs. ground.
+<br/>
+ The Rubin vase: perception alternates between a vase (white figure) and two faces (black figure), depending on what is perceived as figure vs. ground.
 
 ---
 
 ## Proximity
 
-![w:600](assets/figure_5.26_proximity.jpg)
+![w:800](assets/figure_5.26_proximity.jpg)
 
-**Figure 5.26** **Proximity**: things close to each other tend to be grouped together. Left: one block; right: three columns.
+**Proximity**: things close to each other tend to be grouped together. Left: one block; right: three columns.
 
 ---
 
 ## Similarity
 
-![w:600](assets/figure_5.27_similarity.jpg)
+![bg left w:600](assets/figure_5.27_similarity.jpg)
 
-**Figure 5.27** **Similarity**: like elements are grouped together. We perceive alternating colored rows rather than a grid.
+**Similarity**: like elements are grouped together. We perceive alternating colored rows rather than a grid.
 
 ---
 
 ## Good Continuation & Closure
 
-![w:500](assets/figure_5.28_continuity.jpg)
+**Good continuation**: we perceive two overlapping lines, not four separate line segments.
+**Closure**: we perceive complete shapes (circle, rectangle) even when parts are missing.
+![h:300](assets/figure_5.28_continuity.jpg)  ![h:300](assets/figure_5.29_closure.jpg) 
+<!-- <img src="assets/figure_5.29_closure.jpg" alt="Marp" width="400" align="right" /> -->
 
-**Figure 5.28** **Good continuation**: we perceive two overlapping lines, not four separate line segments.
-
-![w:500](assets/figure_5.29_closure.jpg)
-
-**Figure 5.29** **Closure**: we perceive complete shapes (circle, rectangle) even when parts are missing.
 
 ---
 
@@ -576,15 +574,12 @@ Research shows implicit racial bias can affect perception of objects (e.g., misi
 ---
 
 ## Summary
-
-| Chapter | Key Concept |
-|---------|-------------|
-| 5.1 | Sensation ≠ Perception; attention, adaptation, signal detection |
-| 5.2 | Waves: amplitude → intensity; frequency → pitch/color |
-| 5.3 | Vision: rods/cones, color theories, depth cues |
-| 5.4 | Hearing: hair cells, pitch theories, sound localization |
-| 5.5 | Other senses: taste, smell, touch, pain, balance |
-| 5.6 | Gestalt: figure-ground, proximity, similarity, closure |
+- Sensation ≠ Perception; attention, adaptation, signal detection  
+- Waves: amplitude → intensity; frequency → pitch/color |
+- Vision: rods/cones, color theories, depth cues |
+- Hearing: hair cells, pitch theories, sound localization |
+- Other senses: taste, smell, touch, pain, balance |
+- Gestalt: figure-ground, proximity, similarity, closure |
 
 ---
 
