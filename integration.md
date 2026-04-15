@@ -512,7 +512,7 @@ Key idea: perception is an active construction, not a passive recording.
 
 ## Figure-Ground Relationship
 
-![bg left w:600](assets/figure_5.25_faces_vase.jpg)
+![bg left w:600](assets/figure_ground.png)
 <!-- <img src="assets/figure_5.25_faces_vase.jpg" alt="Marp" width="500" align="left" /> -->
 
 <br/>
