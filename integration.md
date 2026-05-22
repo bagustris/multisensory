@@ -480,6 +480,7 @@ Pain is adaptive — signals injury and motivates avoidance.
 - **Inflammatory pain** — signals tissue damage
 - **Neuropathic pain** — amplified signals from damaged neurons
 
+**Nociceptors**: free nerve endings located in the skin and other tissues that respond to harmful stimuli: mechanical, thermal, chemical.
 **Congenital insensitivity to pain (congenital analgesia)** — extremely rare; individuals sustain severe unnoticed injuries and have shorter life expectancies.
 
 ---
@@ -575,11 +576,11 @@ Research shows implicit racial bias can affect perception of objects (e.g., misi
 
 ## Summary
 - Sensation ≠ Perception; attention, adaptation, signal detection  
-- Waves: amplitude → intensity; frequency → pitch/color |
-- Vision: rods/cones, color theories, depth cues |
-- Hearing: hair cells, pitch theories, sound localization |
-- Other senses: taste, smell, touch, pain, balance |
-- Gestalt: figure-ground, proximity, similarity, closure |
+- Waves: amplitude → intensity; frequency → pitch/color 
+- Vision: rods/cones, color theories, depth cues 
+- Hearing: hair cells, pitch theories, sound localization 
+- Other senses: taste, smell, touch, pain, balance 
+- Gestalt: figure-ground, proximity, similarity, closure 
 
 ---
 
