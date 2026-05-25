@@ -36,10 +36,9 @@ math: katex
 # Human-AI Interaction: 
 ## Human Multisensory Perception
 
-<br /><br /><br />
-Bagus Tris Atmaja 
-Assistant Professor – Human-AI Interaction
-
+<br /><br />
+### Assistant Professor: Bagus Tris Atmaja 
+### TA: Zhou Wangzixi (zhou.wangzixi.az3@naist.ac.jp)
 ---
 
 ## Motivation
@@ -325,7 +324,7 @@ Sensitivity curves for the three cone types. Red-green color blindness affects ~
 
 ## Negative Afterimage
 
-![w:500](assets/figure_5.16_afterimage.jpg)
+![w:550](assets/figure_5.16_afterimage.jpg)
 
 Stare at the white dot for 30–60 seconds, then look at a white surface. The afterimage demonstrates opponent-process theory.
 
@@ -352,15 +351,23 @@ We perceive depth in a 2-D image through monocular cues like converging parallel
 ---
 
 # Hearing
-![w:760](assets/figure_5.18_ear_anatomy.jpg)
+![w:760](assets/figure_5.18_ear_anatomy.jpg) 
 
 The ear: outer (pinna, tympanic membrane), middle (ossicles: malleus, incus, stapes), inner (cochlea, basilar membrane).
 
 ---
 
 ## How We Hear
+![w:760](assets/figure_5.18_ear_anatomy.jpg) 
 
 Sound waves → tympanic membrane → ossicles → oval window → cochlear fluid → **hair cells** → auditory nerve → brain (auditory cortex in temporal lobe)
+<style scoped>
+    section {
+        display: block;
+        float: right;
+        font-size: 28px;
+    }
+</style>
 
 **Hair cells** are the auditory receptor cells. Their mechanical activation generates neural impulses.
 
@@ -584,8 +591,27 @@ Research shows implicit racial bias can affect perception of objects (e.g., misi
 
 ---
 
-## Sources
+## Quiz and Sources
 
+- Quiz (multiple choice) is already set in UNIPA
+- Time: 2026-05-26 ~ 2026-05-2
+- Only one chance is permitted
+- 25 questions, 50 minutes
+
+Main source:  
 OpenStax Psychology 2e, Chapter 5 (Spielman, Jenkins & Lovett, 2020).
-Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-Access free at openstax.org
+
+---
+
+## Next lecture  
+
+- Focus on multimodal processing, i.e., computation model 
+- We will practice coding as the task, e.g., [Multibench](https://github.com/human-ai-lab/multibench) and [Nkululeko](https://github.com/felixbur/nkululeko)
+- Multibench can be used for multimodal processing, text, image, audio; while  Nkululeko currently only support fusion of text and audio (from speech).  
+
+```ini
+  [FEATS]
+  # Combine BERT linguistic features with OpenSMILE acoustic features
+  type = ['bert', 'os']
+  os.set = eGeMAPSv02
+```
