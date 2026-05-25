@@ -47,7 +47,7 @@ Assistant Professor – Human-AI Interaction
 - Humans use multiple modalities to communicate (e.g., speech, facial expressions, gestures).
 - We sense the world through multiple channels — not just five.
 - This sub-course consists of two parts:
-  - **Multisensory perecption**: how humans sense and interpret the world through our senses combine these channels.
+  - **Multisensory perception**: how humans sense and interpret the world through our senses combine these channels.
   - **Multimodal processing**: how to design AI systems that can process and integrate information from multiple modalities.
 
 ---
@@ -180,7 +180,7 @@ About ⅓ of participants missed a red cross on screen because attention was foc
 
 ## Müller-Lyer Illusion
 
-![w:700](assets/figure_5.4_muller_lyer.jpg)
+![w:800](assets/figure_5.4_muller_lyer.jpg)
 
 Lines appear to be different lengths although they are identical — a classic example of how top-down expectations shape perception.
 
@@ -200,17 +200,17 @@ Higher frequency = shorter wavelength; lower frequency = longer wavelength.
 
 ## Wave Amplitude and Wavelength
 
-![w:700](assets/figure_5.5_wave.jpg)
+![w:800](assets/figure_5.5_wave.jpg)
 
-**Figure 5.5** Amplitude is measured from peak to trough; wavelength is measured peak to peak.
+Amplitude is measured from peak to trough; wavelength is measured peak to peak.
 
 ---
 
 ## Frequency and Wavelength
 
-![w:700](assets/figure_5.6_frequencies.jpg)
+![w:800](assets/figure_5.6_frequencies.jpg)
 
-**Figure 5.6** Waves of differing wavelengths and frequencies. From top to bottom: wavelengths decrease, frequencies increase.
+Waves of differing wavelengths and frequencies. From top to bottom: wavelengths decrease, frequencies increase.
 
 ---
 
@@ -226,7 +226,7 @@ Visible light is only a small portion of the full electromagnetic spectrum (380�
 
 ![w:920](assets/figure_5.8_vis_spectrum.jpg)
 
-Different wavelengths correspond to different colors. Mnemonic: **ROYGBIV**.
+Different wavelengths correspond to different colors. Mnemonic: **ROYGBIV** ( Red, Orange, Yellow, Green, Blue, Indigo, and Violet).
 - Reds → longer wavelengths
 - Violets/Blues → shorter wavelengths
 - Amplitude → brightness/intensity
