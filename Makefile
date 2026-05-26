@@ -16,7 +16,15 @@ pdf: $(PDFS)
 	$(MARP) $< -o $@
 
 %.pdf: %.md
-	$(MARP) --pdf $< -o $@
+	$(MARP) $< -o $*.pdf.html
+	sed -i \
+	  -e 's|@import "https://fonts.bunny.net[^"]*";|/* local fonts */|g' \
+	  -e 's|src="https://cdn.jsdelivr.net/gh/jdecked/twemoji[^"]*"|src=""|g' \
+	  $*.pdf.html
+	google-chrome --headless=new --no-sandbox --disable-gpu --disable-dev-shm-usage \
+	  --print-to-pdf=$@ --no-pdf-header-footer \
+	  "file://$(CURDIR)/$*.pdf.html"
+	rm -f $*.pdf.html
 
 clean:
 	rm -f $(HTMLS) $(PDFS)
