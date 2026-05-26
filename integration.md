@@ -595,7 +595,7 @@ Research shows implicit racial bias can affect perception of objects (e.g., misi
 
 - Quiz (multiple choice) is already set in UNIPA
 - Time: 2026-05-26 ~ 2026-06-8
-- Only one chance is permitted
+- Only two chances are permitted
 - 25 questions, 50 minutes
 
 Main source:  
