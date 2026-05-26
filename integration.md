@@ -575,7 +575,7 @@ Research shows implicit racial bias can affect perception of objects (e.g., misi
 
 ## Multisensory Illusions
 
-- **McGurk effect**: mismatched audio and visual speech cues produce a third, different percept.
+- [**McGurk effect**](https://www.youtube.com/watch?v=Cezwv5kkLwM): mismatched audio and visual speech cues produce a third, different perception.
 - **Ventriloquist effect**: sound source perceived at the visual location (puppet's mouth) rather than the actual acoustic source.
 - **Rubber hand illusion**: synchronous touch of a fake and real hand induces sense of ownership of the fake hand.
 
@@ -594,7 +594,7 @@ Research shows implicit racial bias can affect perception of objects (e.g., misi
 ## Quiz and Sources
 
 - Quiz (multiple choice) is already set in UNIPA
-- Time: 2026-05-26 ~ 2026-05-2
+- Time: 2026-05-26 ~ 2026-06-8
 - Only one chance is permitted
 - 25 questions, 50 minutes
 
