@@ -14,6 +14,7 @@ math: katex
 Bagus Tris Atmaja
 Assistant Professor – Human-AI Interaction
 Email: bagus.tris@naist.ac.jp
+Course website: https://human-ai-lab.github.io/multisensory  
 
 ---
 
@@ -701,7 +702,6 @@ Same expressivity target as full tensor fusion, but **tractable** at scale.
 ## Multimodal Transformer (MulT)
 
 **MULT** uses directional cross-modal attention:
-
 For source modality $\beta$ and target modality $\alpha$:
 $$\text{CM-Attn}_{\beta \to \alpha}: Q = x_\alpha,\ K = V = x_\beta$$
 
@@ -746,7 +746,8 @@ Plotting both reveals the **accuracy–robustness tradeoff**: some fusion method
 </style>
 **From Perception to Processing:** Human principles (temporal, spatial, inverse effectiveness) ↔ alignment, robustness, transference in ML
 
-**Three Foundational Principles** (Liang et al., 2024):  Heterogeneity · Connections · Interactions
+**Three Foundational Principles** (Liang et al., 2024):  
+  Heterogeneity · Connections · Interactions
 
 **Six Core Challenges:** Representation → Alignment → Reasoning → Generation → Transference → Quantification
 
@@ -768,8 +769,9 @@ Plotting both reveals the **accuracy–robustness tradeoff**: some fusion method
 --- 
 **Assignment (Multibench):**
 - Implement a multimodal model for a chosen dataset (e.g., MOSI)
-- Evaluate fusion, performance, and/or robustness (under noise)
-- Write a report discussing the results and insights on the challenges of multimodal learning (in ~2-page PDF)
+- Evaluate fusion, performance, and/or robustness. 
+- Write a report discussing the results and insights on the challenges of multimodal learning (in ~2-page PDF).
+- Plus: find issues in the [MultiBench codebase](https://github.com/human-ai-lab/multibench) and submit a pull request with fixes or improvements (optional bonus).
 - Due: 2 weeks from today
 - Submit via UNIPA in a **ZIP** file containing code, report, and README with instructions to run the code.
-- You may use Generative AI tools for code generation, but NOT for the report (except for style and grammar)
+- You may use Generative AI tools for code generation only.
