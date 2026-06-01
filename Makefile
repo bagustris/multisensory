@@ -20,6 +20,7 @@ pdf: $(PDFS)
 	sed -i \
 	  -e 's|@import "https://fonts.bunny.net[^"]*";|/* local fonts */|g' \
 	  -e 's|src="https://cdn.jsdelivr.net/gh/jdecked/twemoji[^"]*"|src=""|g' \
+	  -e 's|<pre is="marp-pre" data-auto-scaling="downscale-only">|<pre>|g' \
 	  $*.pdf.html
 	google-chrome --headless=new --no-sandbox --disable-gpu --disable-dev-shm-usage \
 	  --print-to-pdf=$@ --no-pdf-header-footer \

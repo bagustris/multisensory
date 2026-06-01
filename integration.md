@@ -234,9 +234,9 @@ Different wavelengths correspond to different colors. Mnemonic: **ROYGBIV** ( Re
 
 ## Sound Waves
 
-- **Pitch** ↔ frequency: high frequency = high pitch; low frequency = low pitch
+- **Pitch** <-> frequency: high frequency = high pitch; low frequency = low pitch
 - Human audible range: **20–20,000 Hz**
-- **Loudness** ↔ amplitude, measured in **decibels (dB)**
+- **Loudness** <-> amplitude, measured in **decibels (dB)**
   - Conversation ≈ 60 dB; Rock concert ≈ 120 dB
   - Hearing damage risk from ~80 dB; pain threshold ~130 dB
 - **Timbre** — a sound's purity; explains why instruments sound different at same pitch and loudness
@@ -245,9 +245,7 @@ Different wavelengths correspond to different colors. Mnemonic: **ROYGBIV** ( Re
 
 ## Loudness of Common Sounds
 
-![bg left](assets/figure_5.9_aud_range.jpg)
-
-
+<img src="assets/figure_5.9_aud_range.jpg" alt="Marp" width="500" align="left" />
 
 Loudness levels of common sounds: ~⅓ of all hearing loss is due to noise exposure.
 
@@ -256,7 +254,7 @@ Loudness levels of common sounds: ~⅓ of all hearing loss is due to noise expos
 
 ## Vision: The Eye
 
-![bg right w:600](assets/figure_5.11_eye_anatomy.jpg)
+<img src="assets/figure_5.11_eye_anatomy.jpg" alt="Marp" width="600" align="right" />
 
 Our eyes gather sensory information for interpreting the world.
 
@@ -294,10 +292,11 @@ Cones (green) are concentrated in the fovea; rods (blue) cover the rest of the r
 ![w:550](assets/figure_5.12_rods_cones.jpg)
 
 ---
+## At the Optic Chiasm
+<!-- ![bg left w:660](assets/figure_5.13_optic_chiasm.jpg) -->
+<img src="assets/figure_5.13_optic_chiasm.jpg" alt="" width="600" align="right" />
 
-![bg left w:650](assets/figure_5.13_optic_chiasm.jpg)
-
-At the optic chiasm, right-visual-field info goes to left hemisphere and vice versa. Processed in occipital lobe.
+Right-visual-field info goes to left hemisphere and vice versa. Processed in occipital lobe.
 
 - **"What" pathway** — object recognition
 - **"Where/How" pathway** — location and spatial interaction
@@ -316,7 +315,7 @@ Both theories apply — trichromatic at the retina level; opponent-process furth
 
 ## Trichromatic Theory
 
-![bg right w:700](assets/figure_5.14_trichromatic.jpg)
+<img src="assets/figure_5.14_trichromatic.jpg" alt="Marp" width="560" align="right" />
 
 Sensitivity curves for the three cone types. Red-green color blindness affects ~8% of European males.
 
@@ -443,7 +442,7 @@ At least **6 taste qualities**: sweet, salty, sour, bitter, **umami**, and fatty
 
 ### Olfactory Receptors
 
-![bg left w:730](assets/figure_5.22_olfac_recep.jpg)
+<img src="assets/figure_5.22_olfac_recep.jpg" alt="Marp" width="540" align="left" />
 
 <br/>
 Hair-like olfactory receptor extensions protrude into the nasal mucous membrane to bind odor molecules.
@@ -520,8 +519,7 @@ Key idea: perception is an active construction, not a passive recording.
 
 ## Figure-Ground Relationship
 
-![bg left w:600](assets/figure_ground.png)
-<!-- <img src="assets/figure_5.25_faces_vase.jpg" alt="Marp" width="500" align="left" /> -->
+<img src="assets/figure_ground.png" alt="Marp" width="500" align="left" />
 
 <br/>
  The Rubin vase: perception alternates between a vase (white figure) and two faces (black figure), depending on what is perceived as figure vs. ground.
@@ -538,7 +536,7 @@ Key idea: perception is an active construction, not a passive recording.
 
 ## Similarity
 
-![bg left w:600](assets/figure_5.27_similarity.jpg)
+<img src="assets/figure_5.27_similarity.jpg" alt="Marp" width="500" align="left" />
 
 **Similarity**: like elements are grouped together. We perceive alternating colored rows rather than a grid.
 
