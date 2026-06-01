@@ -764,3 +764,12 @@ Plotting both reveals the **accuracy–robustness tradeoff**: some fusion method
     - MI 
     - Cross-modal Attention
 - Evaluation: Performance, Complexity, Robustness
+
+--- 
+**Assignment (Multibench):**
+- Implement a multimodal model for a chosen dataset (e.g., MOSI)
+- Evaluate fusion, performance, and/or robustness (under noise)
+- Write a report discussing the results and insights on the challenges of multimodal learning (in ~2-page PDF)
+- Due: 2 weeks from today
+- Submit via UNIPA in a **ZIP** file containing code, report, and README with instructions to run the code.
+- You may use Generative AI tools for code generation, but NOT for the report (except for style and grammar)
