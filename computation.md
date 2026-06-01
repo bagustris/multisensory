@@ -761,10 +761,10 @@ Plotting both reveals the **accuracy–robustness tradeoff**: some fusion method
 - Fusion spectrum: 
     - Early & Late Fusion 
     - Low-Rank Tensor Fusion
-    - MI 
+    - Multiplicative Interactions (MI)
     - Cross-modal Attention
 - Evaluation: Performance, Complexity, Robustness
-
+- DEMO
 --- 
 **Assignment (Multibench):**
 - Implement a multimodal model for a chosen dataset (e.g., MOSI)
