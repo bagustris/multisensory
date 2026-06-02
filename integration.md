@@ -39,6 +39,8 @@ math: katex
 <br /><br />
 ### Assistant Professor: Bagus Tris Atmaja 
 ### TA: Zhou Wangzixi (zhou.wangzixi.az3@naist.ac.jp)
+Course website: https://bagustris.github.io/multisensory  
+
 ---
 
 ## Motivation

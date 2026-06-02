@@ -14,7 +14,7 @@ math: katex
 Bagus Tris Atmaja
 Assistant Professor – Human-AI Interaction
 Email: bagus.tris@naist.ac.jp
-Course website: https://human-ai-lab.github.io/multisensory  
+Course website: https://bagustris.github.io/multisensory  
 
 ---
 
